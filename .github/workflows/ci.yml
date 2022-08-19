@@ -34,5 +34,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r "requirements.txt"
         
-      - run: pytest main.py
+      - run: pytest -s main.py
 
